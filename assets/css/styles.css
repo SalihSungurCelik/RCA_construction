@@ -225,6 +225,16 @@ img {
 
 /* Change background header */
 
+.bg-header {
+  background-color: var(--body-color);
+  box-shadow: 0 4px 16px hsla(255, 90%, 8%, 0.1);
+}
+
+.bg-header .nav__logo span,
+.bg-header .nav__toggle {
+  color: var(--title-color);
+}
+
 /* Active link */
 
 /*=============== HOME ===============*/
