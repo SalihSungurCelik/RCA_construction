@@ -360,6 +360,22 @@ img {
 
 /*=============== ABOUT ===============*/
 
+.about__container {
+  row-gap: 8rem;
+}
+
+.about__data {
+  margin-bottom: 2rem;
+}
+
+.about__list {
+  text-align: initial;
+  grid-template-columns: repeat(2, 130px);
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
 /*=============== SERVICES ===============*/
 
 /* Swiper class */
